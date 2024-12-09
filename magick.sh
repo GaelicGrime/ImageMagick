@@ -19,13 +19,13 @@
 #
 #    magick.sh magick -size 640x480 gradient:black-yellow gradient.png
 
-top_srcdir='/home/cristy/ImageMagick-7'
-top_builddir='/home/cristy/ImageMagick-7'
+top_srcdir='/zopt/src/ImageMagickFull'
+top_builddir='/zopt/src/ImageMagickFull'
 
-MAGICK_CODER_MODULE_PATH='/home/cristy/ImageMagick-7/coders'
-MAGICK_CONFIGURE_SRC_PATH='/home/cristy/ImageMagick-7/config'
-MAGICK_CONFIGURE_BUILD_PATH='/home/cristy/ImageMagick-7/config'
-MAGICK_FILTER_MODULE_PATH='/home/cristy/ImageMagick-7/filters'
+MAGICK_CODER_MODULE_PATH='/zopt/src/ImageMagickFull/coders'
+MAGICK_CONFIGURE_SRC_PATH='/zopt/src/ImageMagickFull/config'
+MAGICK_CONFIGURE_BUILD_PATH='/zopt/src/ImageMagickFull/config'
+MAGICK_FILTER_MODULE_PATH='/zopt/src/ImageMagickFull/filters'
 DIRSEP=':'
 
 PATH="${top_builddir}/utilities:${PATH}"
